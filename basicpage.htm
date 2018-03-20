@@ -2,18 +2,154 @@
 <html>
 <-- Jason Sikorski -->
    <head>
-      <title>JavaScript Example</title>
+     <script type="text/javascript">
+     function displayEmployee() {document.getElementById("demo").innerHTML = getEmp.name return null; }
+     </script>
+     <title>JavaScript Example</title>
    </head>
 
    <body>
-     <h2>Use JavaScript to Change Text</h2>
-     <p>This example writes "Hello JavaScript!" into an HTML element with id="demo":</p>
-
-     <p id="demo">This is the original text</p>
-
-     <script>
-     document.getElementById("demo").innerHTML = "Hello JavaScript!";
-     </script>
+     <form id = "getEmp" >
+       <select name="employee">
+         <option value = "1638">Ken Champlin</option>
+         <option value = "2030">Trevor Pennell</option>
+         <option value = "8955">Eric A Vita</option>
+         <option value = "9260">Chris Cross</option>
+         <option value = "9319">Michael Hood</option>
+         <option value = "9500">James Fish</option>
+         <option value = "10825">Pete Barreda</option>
+         <option value = "10939">Shane Brown</option>
+         <option value = "10990">Sam Pena III</option>
+         <option value = "11033">Luis Barba</option>
+         <option value = "11249">Dustin Ayers</option>
+         <option value = "11295">Abraham Tovar</option>
+         <option value = "11370">Adam Pagel</option>
+         <option value = "11388">Jasiri Williams</option>
+         <option value = "11817">Luis Ponce</option>
+         <option value = "12066">John Sorensen</option>
+         <option value = "12422">Rudy Alzua</option>
+         <option value = "12430">Hilario Ortiz</option>
+         <option value = "12712">Stephen Bunn</option>
+         <option value = "12978">John Lacovara</option>
+         <option value = "13032">Sam Hair</option>
+         <option value = "13093">Edgar Adame-Rodriguez</option>
+         <option value = "13706">Michael Sparrow</option>
+         <option value = "14444">Brian Hopkins</option>
+         <option value = "14834">James Strange</option>
+         <option value = "14970">Brian Bott</option>
+         <option value = "15010">Alec Hunt</option>
+         <option value = "15263">Joshua Pennell</option>
+         <option value = "15993">Travis Lacovara</option>
+         <option value = "16231">Jorge Gonzalez</option>
+         <option value = "16280">Adam Corso</option>
+         <option value = "16518">Alexis  Serrano</option>
+         <option value = "16732">Tomas Vivar</option>
+         <option value = "16879">Robert   Roulston</option>
+         <option value = "16880">Victor Guerra</option>
+         <option value = "16945">Alan Flores</option>
+         <option value = "17097">Avery Lopez</option>
+         <option value = "17274">Steven Pearson</option>
+         <option value = "17276">Shane Myers</option>
+         <option value = "17383">Ponciano Lorenzo</option>
+         <option value = "17407">Ross McMann</option>
+         <option value = "17441">James Lebo</option>
+         <option value = "17444">Joseph Buchert</option>
+         <option value = "17445">Louis Rangel</option>
+         <option value = "17469">Sosteno Chavez</option>
+         <option value = "17471">Maurice Love</option>
+         <option value = "17497">Robert   Hughley</option>
+         <option value = "17503">Grant Hagenauer</option>
+         <option value = "17532">Robert Brewer</option>
+         <option value = "17587">David Hooven</option>
+         <option value = "17694">Jason Fischer</option>
+         <option value = "17695">Kevin Kees</option>
+         <option value = "17781">David Zamora</option>
+         <option value = "17785">Freddy Mayen</option>
+         <option value = "17790">Arturo Martin</option>
+         <option value = "17792">Eduardo Ornelas Sr.</option>
+         <option value = "17794">Jesus Padilla</option>
+         <option value = "17797">Gilbert Sosa</option>
+         <option value = "17905">Steven Troxell</option>
+         <option value = "17906">Justin Andrews</option>
+         <option value = "17907">Robert   Troxell</option>
+         <option value = "17938">Alex Brauning</option>
+         <option value = "17956">Brett Partain</option>
+         <option value = "17966">Joseph Drake</option>
+         <option value = "17971">Cory Knapton</option>
+         <option value = "18001">Quinton Radford</option>
+         <option value = "18032">Luis Lugo</option>
+         <option value = "18036">Dylan Davis</option>
+         <option value = "18063">Angelo Amador</option>
+         <option value = "18074">Julio Rivas</option>
+         <option value = "18079">Marcos Gomez</option>
+         <option value = "18080">Brian Muniz</option>
+         <option value = "18110">Travis Loudermilk</option>
+         <option value = "18112">Edwin Chavez</option>
+         <option value = "18114">Elvis Sorto</option>
+         <option value = "18121">Daniel Martinez</option>
+         <option value = "18125">Robert Blackhat</option>
+         <option value = "18210">Santos Esquival</option>
+         <option value = "18211">Ray Burris</option>
+         <option value = "18213">Avery Rogers</option>
+         <option value = "18214">Jamie Daigle</option>
+         <option value = "18248">Francisco Flores Tapia</option>
+         <option value = "18252">Thomas Deborba</option>
+         <option value = "18256">Kai Henry</option>
+         <option value = "18260">Matthew Williams</option>
+         <option value = "18274">Louie Dagnino</option>
+         <option value = "18307">Ruben Kuc</option>
+         <option value = "18314">Larry Gallegos</option>
+         <option value = "18345">Walter Jones III</option>
+         <option value = "18346">Oscar Mendoza</option>
+         <option value = "18364">Wyatt Twitty</option>
+         <option value = "18374">Miguel Martinez</option>
+         <option value = "18375">Jesse Solis</option>
+         <option value = "18409">Joseph Troiano</option>
+         <option value = "18416">William Brigham</option>
+         <option value = "18417">Sander Prera</option>
+         <option value = "18482">Michael Lopez</option>
+         <option value = "18490">Aaron Nitzel </option>
+         <option value = "18526">Diana Garcia</option>
+         <option value = "18538">Neil Hart</option>
+         <option value = "18570">Jeffery Taylor  </option>
+         <option value = "18608">Kevin Johnson</option>
+         <option value = "18612">Matthew West</option>
+         <option value = "18614">Darrell Tso</option>
+         <option value = "18616">Tamera Roark</option>
+         <option value = "18621">Clay Watson</option>
+         <option value = "18644">Carlos Orange </option>
+         <option value = "18648">Jimmy Rodriguez</option>
+         <option value = "19015">Todd Taylor Garcia</option>
+         <option value = "19035">Brandon Pennell</option>
+         <option value = "19048">Nathaniel Miller</option>
+         <option value = "19057">Joshua West</option>
+         <option value = "19058">Michael Little</option>
+         <option value = "19059">Jon Little</option>
+         <option value = "19106">Eric  Bonacker</option>
+         <option value = "19107">Kevin McGonigal </option>
+         <option value = "19108">Mike Alonso </option>
+         <option value = "19109">Benjamin Tipton</option>
+         <option value = "19110">Adriel Garza</option>
+         <option value = "19130">Thomas Barba</option>
+         <option value = "19285">Jaden Scatton</option>
+         <option value = "19320">Richard Voyles</option>
+         <option value = "19338">Herb Rich</option>
+         <option value = "19400">David Johnson</option>
+         <option value = "19404">Jere Little</option>
+         <option value = "19405">Vance Benoit</option>
+         <option value = "19469">Billy Tani</option>
+         <option value = "19470">Quintin Johnson</option>
+         <option value = "19471">Angela Haberle</option>
+         <option value = "19185">Osama Aladham</option>
+         <option value = "19186">Matt Lowenstein</option>
+         <option value = "19181">Jason Sikorski</option>
+       </select>
+       <br>
+       <input type="submit" value="Submit" >
+       <br><br>
+       <input type="submit" onclick=displayEmployee>
+     </form>
+     <p id="demo"></p>
    </body>
 
 </html>
