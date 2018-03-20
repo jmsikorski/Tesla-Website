@@ -1,4 +1,4 @@
-Allow: $_POST
+Allow: POST
 <html>
  <body>
 
